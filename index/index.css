@@ -1,0 +1,265 @@
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: 9999;
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+/* Import Open Sans and Lato fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Lato:wght@400&display=swap');
+
+/* Apply Open Sans font to the title */
+title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply Lato font to the H1 */
+h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Apply Merriweather font to the P */
+p {
+  font-family: 'Merriweather', serif;
+}
+
+/* Set the background color to light blue */
+body {
+  background-color: lightblue;
+}
+
+/* Style the gallery images */
+.image-gallery {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.image-gallery p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0;
+}
+/* Set font families for different elements */
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+}
+
+header {
+  background-color: purple;
+}
+
+/* Set font family for different types of text */
+h1 {
+  font-family: "Tilt and Warp";
+}
+
+p {
+  font-family: "Sofia";
+}
+
+/* Set font family for links */
+a {
+  font-family: "Audiowide";
+}
+
+/* Apply different styles for mobile devices */
+@media (max-width: 767px) {
+  /* Make links appear vertical */
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Set font size for body text */
+  body {
+    font-size: 20px;
+  }
+}
+/* Remove border on image */
+.img img {
+  border: none;
+}
+
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+/* Default styles for the body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Metal Mania", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styles for images */
+.image {
+  width: 100%;
+}
+
+/* Styles for text */
+.text {
+  font-size: 16px;
+}
+
+/* Styles for the content section */
+#content {
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Styles for sections */
+section {
+  margin: 4rem auto;
+  display: block;
+}
+
+/* Styles for the main navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+nav li {
+  width: 100%;
+  height: 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+nav a:focus {
+  background: #fff;
+  color: #808080;
+}
+
+nav a.active {
+  color: #8CBFCF;
+  background: #000;
+}
+
+/* Styles for the projects section */
+.projects ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projects li {
+  margin: 1rem 0px;
+  display: block;
+}
+
+/* Styles for the footer */
+footer {
+  background: #808080;
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Media query for devices with a width of 555px or more */
+@media only screen and (min-width: 555px) {
+  /* Styles for devices with a width of 555px or more go here */
+}
+
+/* Media query for devices with a width of 800px or more */
+@media only screen and (min-width: 800px) {
+  /* Styles for devices with a width of 800px or more go here */
+
+}
+  h1 {
+        font-family: 'Metal Mania', cursive;
+      }
+  h2{
+  font-family: 'helvetica', Sans-serif;
+  }
+    p{
+  font-family: 'helvetica', Sans-serif;
+  }
+
+
+ /* Text holder class */
+      .text-holder {
+        width: 100%;
+      }
+      /* Location holder class */
+      .location-holder {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      .location-holder h2 {
+        margin-top: 0;
+      }
+      /* Media holder class */
+      .media-holder {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        display: flex;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      .media-holder img {
+        max-height: 150px;
+        margin-right: 20px;
+      }
+      .media-holder h2 {
+        margin-top: 0;
+      }
